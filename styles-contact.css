@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/brick_bg.jpg)
+  background: url(images/website_background2.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,56 +68,67 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 700px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	color*/
 	text-align: center;
-	border: 4px dashed white;
+	
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    width: 200px;
+    margin-bottom: 20px;
 	text-align: center;
+    padding-bottom: 10px;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-font-family: fairplex-narrow, serif;
+    font-family: conglomerate, serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+    padding: 0;
+    margin: 0px auto 5px auto;
+    text-align: center;
+    color: black;
+    width: 550px;
+    line-height: 1.3;
 }
 
 h2 {
-    font-family: fairplex-narrow, serif;
+    font-family: serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
+    font-style: italic;
+    font-size: 1 em;
+    line-height: 1;
+    color: black;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 30px auto;
 }
 
 p {
 	   /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-    font-family: fairplex-narrow, serif;
+    font-family: serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: black;
+    margin-top: 2em;
 }
     
 nav{
-    font-family: fairplex-narrow;
+    /* This is where my links are*/
+    
+    font-family: serif;
     font-size: 1.23em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: center;
+    border: solid white;
+    border-width: .001em;
     margin-top: 2em;
+
     }
 
 nav li{
@@ -128,12 +139,16 @@ nav a{
     display: inline-block;
     padding: 10px;
     }
+
+/*links are dark green and turn light when hovered over*/
 a{
-    color:#444;
+    color:darkolivegreen;
     text-decoration: none;
     font-weight: bold;
     }
 a:hover{
-    color:black;
-    background:pink;
+    color:darkseagreen;
+    
+   
+   
     }
