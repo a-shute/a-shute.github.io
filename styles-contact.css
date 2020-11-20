@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(website_background2.jpg)
+  background: url(images/website_background2.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -82,6 +82,7 @@ html, body {
     margin-bottom: 20px;
 	text-align: center;
     padding-bottom: 10px;
+    align-content: center;
 }
 
 h1 {
@@ -107,6 +108,7 @@ h2 {
     color: black;
     padding: 0px 0px;
     margin: 0px auto 30px auto;
+    text-align: center;
 }
 
 p {
@@ -116,6 +118,7 @@ p {
     line-height: 1.6;
     color: black;
     margin-top: 2em;
+    text-align: center;
 }
     
 nav{
@@ -128,6 +131,7 @@ nav{
     border: solid white;
     border-width: .001em;
     margin-top: 2em;
+    text-align: center;
 
     }
 
