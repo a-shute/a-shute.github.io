@@ -71,7 +71,6 @@ html, body {
     width: 700px;
 	padding: 2%;
     margin: 100px auto;
- 	color*/
 	text-align: center;
 	
 }
@@ -80,13 +79,13 @@ html, body {
 #logo {
     width: 200px;
     margin-bottom: 20px;
-	text-align: center;
     padding-bottom: 10px;
-    align-content: center;
+    text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+    
     font-family: conglomerate, serif;
     font-weight: 300;
     font-style: normal;
@@ -112,7 +111,8 @@ h2 {
 }
 
 p {
-	   /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
+	   /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+   
     font-family: serif;
 	font-size: 1.2em;
     line-height: 1.6;
