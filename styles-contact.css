@@ -125,11 +125,12 @@ nav{
     /* This is where my links are*/
     
     font-family: conglomerate, serif;
-    font-size: 1.23em;
+    font-size: 1.5em;
+    font-weight: bolder;
     width: 400px;
     margin: 0 auto;
     border: solid white;
-    border-width: .001em;
+    border-width: .01em;
     margin-top: 2em;
     text-align: center;
 
@@ -149,8 +150,11 @@ a{
     color:darkolivegreen;
     text-decoration: none;
     font-weight: bold;
+
     }
+
 a:hover{
+    
     color:darkseagreen;
     
    
