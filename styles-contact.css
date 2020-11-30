@@ -89,22 +89,22 @@ h1 {
     font-family: conglomerate, serif;
     font-weight: 400;
     font-style: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 0;
     margin: 0px auto 5px auto;
     text-align: center;
-    color: black;
+    color: white;
     width: 650px;
     line-height: 1.3;
 }
 
 h2 {
-    font-family: serif;
+    font-family: conglomerate, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 2 em;
+    font-size: 1em;
     line-height: 1;
-    color: black;
+    color: snow;
     padding: 0px 0px;
     margin: 0px auto 30px auto;
     text-align: center;
@@ -113,8 +113,10 @@ h2 {
 p {
 	   /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
    
-    font-family: serif;
-	font-size: 1.2em;
+    font-family: conglomerate, serif;
+    font-weight: 300;
+    font-style: bold;
+	font-size: 1.3em;
     line-height: 1.6;
     color: black;
     margin-top: 2em;
@@ -128,10 +130,9 @@ nav{
     font-size: 1.5em;
     font-weight: bolder;
     width: 400px;
-    margin: 0 auto;
-    border: solid white;
-    border-width: .01em;
+    margin:0 auto;
     margin-top: 2em;
+ 
     text-align: center;
 
     }
@@ -148,7 +149,6 @@ nav a{
 /*links are dark green and turn light when hovered over*/
 a{
     color:darkolivegreen;
-    text-decoration: none;
     font-weight: bold;
 
     }
