@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+	margin: 1rem 0rem;
+}
+
+body {
+	background-color: rgb(241, 233, 221);
+}
+
+
+h1 {
+	width: 32em;
+}
+
+h2 {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 1rem 0rem;
+	color: rgb(0, 0, 0);
+
+}
+
+h3 {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: rgb(183, 107, 86);
+	margin: 1rem;
+}
+
+ul li {
+	font-family: gimlet-text, serif;
+	font-weight: 400;
+	font-style: normal;
+	display: list-item;
+	margin: 1em 1em 0em;
+	list-style-type: none;
+	font-size: 1.3rem;
+
+}
+
+ol li {
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: list-item;
+	margin: 1em 1em 1em;
+	list-style-type: none;
+}
+
+
+li a {
+	display: inline;
+	margin: 1rem 2rem 1rem 0rem;
+	color: rgb(100, 139, 106);
+	text-decoration: none;
+	font-size: 1.5rem;
+
+}
+
+li a:hover {
+	color: rgb(0, 0, 0);
+}
+
+p {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 200;
+	font-style: normal;
+	margin: 1rem 1.5rem 1rem;
+	font-size: 1.2rem;
+}
+
+nav.spacing ul li {
+	display: inline;
+	margin: 5rem 1rem 2rem;
+
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
