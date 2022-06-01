@@ -1,0 +1,187 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+	margin: 1rem 0rem;
+}
+
+body {
+	background-color: rgb(241, 233, 221);
+}
+
+div.container {
+	max-width: 65em;
+	margin: auto;
+	display: grid;
+}
+
+h1 {
+	width: 10em;
+	margin: 2rem;
+	display: block;
+}
+
+h2 {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 1rem 0rem .5rem;
+	margin-left: .5em;
+	color: rgb(0, 0, 0);
+
+}
+
+h3 {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: rgb(183, 107, 86);
+	margin: 1rem 1rem 0rem;
+    
+}
+
+ul li {
+	font-family: gimlet-text, serif;
+	font-weight: 400;
+	font-style: normal;
+	display: list-item;
+	margin: 3rem 1rem 0rem 1rem ;
+	list-style-type: none;
+	font-size: 1.3rem;
+
+}
+
+ol li {
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: list-item;
+	margin: 1.5em 1em 1em;
+	list-style-type: none;
+}
+
+
+li a {
+	display: inline;
+	margin: 1rem 2rem 1rem 0;
+	color: rgb(100, 139, 106);
+	text-decoration: none;
+	font-size: 1.5rem;
+
+}
+
+li a:hover {
+	color: rgb(0, 0, 0);
+}
+
+p {
+	font-family: mr-eaves-xl-modern, serif;
+	font-weight: 200;
+	font-style: normal;
+	margin: .5rem 2rem 0rem;
+	font-size: 1.2rem;
+    max-width: 30em;
+}
+section.coffee p {
+        margin-left: 1rem;
+	}
+section.other p {
+        margin-left: 1rem;
+	}
+section.milk p {
+        margin-left: 1rem;
+	}
+
+nav.spacing ul li {
+	display: inline;
+	margin: 5rem 0rem 5rem;
+	margin-left: 2rem;
+}
+section.home {
+        margin-left: 2em
+	}
+
+section.home p {
+    margin-left: 0;
+}
+
+section.about{
+    margin: 0 2rem 0;
+}
+
+section.about p{
+    margin-left: 0;
+}
+@media only screen and (min-width:45em) {
+
+	section.home {
+		display: grid;
+		grid-template-columns: 1fr 2.2fr;
+		column-gap: .5em;
+        margin-left: 2em
+        
+
+	}
+
+	section.home p {
+		grid-column: 1/3;
+        margin-left: 1.7em;
+        margin-left: 0;
+	}
+
+	fig caption {
+		padding-top: 2em 4em 2em;
+		display: grid;
+		column-gap: 1em;
+	}
+
+	section.coffee {
+		display: grid;
+		grid-template-columns: 2.2fr 1fr;
+		column-gap: 1em;
+		padding-top: 1em;
+		padding-bottom: 4em;
+		border-top: solid 2px rgb(120, 81, 59);     
+	}
+
+	section.other {
+		display: grid;
+		grid-template-columns: 2.2fr 1fr;
+		column-gap: 1em;
+		padding-top: 1em;
+		padding-bottom: 4em;
+		border-top: solid 2px rgb(85, 63, 51);
+	}
+
+	section.milk {
+		display: grid;
+		grid-template-columns: 2.2fr 1fr;
+		column-gap: 1em;
+		padding-top: 1em;
+		padding-bottom: 4em;
+		border-top: solid 2px rgb(85, 63, 51);
+	}
+
+	section.location {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		column-gap: 1em;
+        margin-left: 0;
+
+	}
+
+	section.about {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 1em;
+        margin-left: 0;   
+	}
+section.about p{
+    margin-left: 2rem;
+}
+
+}
