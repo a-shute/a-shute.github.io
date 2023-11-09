@@ -1,146 +1,161 @@
 /*CSS document*/
 body {
-background-color: rgb(243, 243, 234);
-font-style: normal;
-text-decoration-line: none;
-}
-a {
-text-decoration: none;
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 300;
-color:black;
-}
-div.container {
-max-width: 40em;
-margin: auto;
-}
-figure {
-margin: 0;
-}
-img {
-width: 100%;
-}
-ul {
-list-style-type: none;
-padding: 0;
-}
-li {
-display: inline;
-}
-a:hover {
-color: rgb(100 100 100);
-}
-li a:hover {
-color: rgb(231, 72, 47);
-}
-li a {
-margin: 1rem 1.5rem 1rem 0rem;
-color: rgb(25, 25, 25);
-text-decoration: none;
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 1.3rem;
-text-transform: uppercase;
-}
-h1 {
-width: 10em;
-}
-h2 {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 1.5rem;
-color: rgb(231, 72, 47);
-text-transform: uppercase;
-}
-h3 {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 1.5rem;
-text-transform: uppercase;
-}
-h4 {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 500;
-font-style: normal;
-color: rgb(55, 105, 134);
-/* border-top: 2px solid black; */
-font-size: 1.5rem;
-/* padding-top: 1em; */
-}
-p {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 300;
-font-style: normal;
-font-size: 1rem;
-text-decoration: none;
-padding-bottom: 3rem;
-padding-top: 0%;
-}
-footer {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 1rem;
-color: rgb(55, 105, 134);
-}
-figcaption {
-font-family: "mr-eaves-xl-modern", sans-serif;
-font-weight: 100;
-font-style: italic;
-font-size: 1rem;
-padding-right: 4em;
-padding-bottom: 2em;
-}
-@media screen and (min-width: 60em){
-main {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 0 1em;
-}
-div.container {
-max-width: 80em;
-display: grid;
-grid-template-columns: 3fr 1fr;
-grid-gap: 0 1em;
-}
-header {
-grid-column: 1/3;
-}
-section{
-max-width: 40em;
-margin: 0 auto;
-}
-section.primary{
-grid-column: 2/4;
-grid-row: 1/3;
-display: flex;
-flex-direction: column;
-}
-section.primary a {
-flex: 1 0 10em;
-display: flex;
-flex-direction:column;
-}
-section.primary a figure{
-flex: 1 0 10em;
-}
-section.primary a img{
-height: 95%;
-object-fit: cover;
-}
-section.primary a h3{
-flex: 0 0 auto;
-margin: 0;
-}
-section.primary a p{
-flex: 0 0 auto;
-}
-section.tertiary{
-border-top: 2px solid black;
-font-size: 1.5rem;
-padding-top: .5em; 
-}
-}
+    background-color: rgb(243, 243, 234);
+    font-style: normal;
+    text-decoration-line: none;
+    }
+    a {
+    text-decoration: none;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 300;
+    color:black;
+    }
+    div.container {
+    max-width: 40em;
+    margin: auto;
+    }
+    
+    figure {
+    margin: 0;
+    }
+    
+    img {
+    width: 100%;
+    }
+    
+    ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    li {
+    display: inline;
+    }
+    a:hover {
+    color: rgb(100 100 100);
+    }
+    li a:hover {
+    color: rgb(231, 72, 47);
+    }
+    li a {
+    margin: 1rem 1.5rem 1rem 0rem;
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    }
+    h1 {
+    width: 10em;
+    }
+    h2 {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(231, 72, 47);
+    text-transform: uppercase;
+    }
+    h3 {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    }
+    h4 {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(55, 105, 134);
+    /* border-top: 2px solid black; */
+    font-size: 1.5rem;
+    /* padding-top: 1em; */
+    }
+    p {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-bottom: 2rem;
+    padding-top: 0%;
+    }
+    footer {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(55, 105, 134);
+    }
+    figcaption {
+    font-family: "mr-eaves-xl-modern", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1rem;
+    padding-right: 4em;
+    padding-bottom: 2em;
+    }
+    p.section-end{
+        border-bottom: 2px solid black;
+        padding-bottom: 2em;
+        margin-bottom: 1.5em;
+    }
+
+    @media screen and (min-width: 60em){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0 1em;
+    }
+    div.container {
+        max-width: 80em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+    }
+
+    header {
+        grid-column: 1/3;
+    }
+
+    section{
+        max-width: 40em;
+        margin: 0 auto;
+    }
+
+    section.primary{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    }
+
+    section.primary a {
+        flex: 1 0 10em;
+        display: flex;
+        flex-direction:column;
+    }
+
+    section.primary a figure{
+        flex: 1 0 10em;
+    }
+
+    section.primary a img{
+        height: 100%;
+        object-fit: cover;
+    }
+    section.primary a h3{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+    section.primary a p{
+        flex: 0 0 auto;
+    }
+    section.tertiary{
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    }
+    }
+    
