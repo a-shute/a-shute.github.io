@@ -246,7 +246,7 @@ figure.displayedphoto {
 
 main.photogallery {
     position: relative;
-    /* display:block; */
+    display:block; */
     padding-top: 3em;
     padding-bottom: calc(72% + 3em);
     max-width: 55%;
@@ -260,7 +260,7 @@ main.photogallery {
     grid-template-columns: repeat(8, 2fr);
     grid-gap: 0.2em;
     width: 80%;
-    padding-top: 3em;
+    padding-top: 10em;
 }
 
     input:nth-of-type(1):checked~main figure:nth-of-type(1),
