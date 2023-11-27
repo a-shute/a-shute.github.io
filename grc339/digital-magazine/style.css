@@ -8,7 +8,7 @@ body {
     text-decoration: none;
     font-family: "mr-eaves-xl-modern", sans-serif;
     font-weight: 300;
-    color:black;
+    color:rgb(25, 25, 25);
     }
     div.container {
     max-width: 40em;
@@ -67,6 +67,9 @@ body {
     h3.main{
         padding-top: 1rem;
     }
+    h3.no-padding{
+        padding-top: none;
+    }
     h4 {
     font-family: "mr-eaves-xl-modern", sans-serif;
     font-weight: 500;
@@ -103,7 +106,7 @@ body {
     padding-top: 1rem;
     }
     p.section-end{
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid rgb(25, 25, 25);
         padding-bottom: 2em;
         margin-bottom: 1.5em;
     }
@@ -281,5 +284,49 @@ main.photogallery {
         grid-row: 4/5;
     }
 
-
 }
+    /* Dark Mode */
+    @media screen and (prefers-color-scheme: dark) {
+        body{
+            background-color:rgb(22, 66, 82);
+        }
+        p{
+            color: #e8e8e8;
+        }
+        p.footer{
+            color:  rgb(135, 196, 217);
+        }
+        a {
+            color:#e8e8e8;
+            }
+            a:hover {
+                color: rgb(135, 196, 217);
+                }
+             li a {
+                color: #e8e8e8;}
+        label {
+            color: #e8e8e8;}
+                    
+        h4 {
+            color: rgb(135, 196, 217);
+         }
+        p.section-end{
+            border-bottom: 2px solid #e8e8e8;
+        }
+        figcaption {
+            color: #e8e8e8;
+        }
+        footer {   
+            color: rgb(135, 196, 217);
+            }
+        
+        h1{
+            background-image: url("ooo_logo_alt.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        h1 img{
+            opacity: 0;
+        }
+    }
+    
